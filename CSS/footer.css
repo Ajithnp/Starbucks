@@ -1,0 +1,124 @@
+.footer li{
+    list-style-type: none;
+    margin-top: 30px;   
+}
+.footer li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255,0.80);
+    font-size: 14px;
+    font-weight: 400;   
+}
+.footer li a:hover{
+    color: rgba(255, 255, 255,0.50); 
+}
+.media_logos{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    
+}
+.apple_store{
+    border: none;
+    ;
+    background-color: transparent;
+    padding: 0;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.play_store{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+.footer_captions{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.2;
+   
+}
+.social_media{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+
+.footer{
+    height: 728.40px;
+    background-color: rgb(14, 56, 44);
+    padding-top: 128px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    padding-bottom: px;
+    margin-top: 40px;
+}
+.footer_menu{
+    height: 728.40px;
+    margin-left: 118px;
+    margin-right: 75px;
+    
+}
+.footer_list{
+    display: flex;
+    flex-direction:row;
+    padding-bottom: 20px;
+    
+
+}
+.footer_logo{
+    flex: 1;
+}
+.about_us{
+    flex: 1;
+}
+.responsibility{
+    flex: 1;
+}
+.quick_links{
+    flex: 1;
+}
+.social_media{
+    flex: 1;
+}
+.more{
+    flex: 1;
+}
+.footer_end{
+    
+    padding-top: 15px;
+    display: flex;
+
+}
+
+.footer_end a{
+    text-decoration: none;
+    color: rgba(255, 255, 255,0.80);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 20px;
+
+}
+.footer_end a:hover{
+    color: rgba(255, 255, 255,0.50); 
+
+}
+.footer_endlist{
+    flex: 1;
+
+}
+.copy_right{
+    flex: 1;
+    text-align: end;
+}
+#underline{
+    color: white;
+}
+.listed_items{
+    padding-left: 0;
+}

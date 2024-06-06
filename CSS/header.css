@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: scroll;
+   
+}
+::-webkit-scrollbar {
+    width: 8px; /* Scrollbar width */
+
+  }
+::-webkit-scrollbar-track {
+    background: rgb(0, 117, 74); /* Track color */
+    border:  4px solid transparent;
+    background-clip: content-box;
+  } 
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 117, 74);
+   
+}
+.header{
+    height: 73.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   background-color: white;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%; /* Optional: Set width to match your layout */
+   z-index: 10;
+    
+
+}
+.left_section{
+    margin-left: 120px;
+    
+
+}
+.logo_picture{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    
+   
+ 
+    
+}
+.middle_section{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex: 1;
+    margin-left: 40px;
+   
+
+    
+
+
+}
+.middle_section a{
+    
+    text-decoration: none ;
+    margin: 30px;
+    font-family: SoDoSans_Light, Helvetica, sans-serif;
+    color: rgba(33, 37, 0,.5);
+    transition: color .15s ease-in-out; 
+       
+}
+/* .middle_section a:focus{
+    color: #012216;
+    padding-bottom: 5px;
+    border-bottom: 2px sold #012216;
+} */
+
+.middle_section a:focus{
+    border-bottom: 2px solid #012216;
+    color: #1e3932;
+}
+
+
+.second_section{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex: 1;
+    height: 100%;
+    margin-right: 100px;
+
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    border: none;
+    transition: border 0.3s;
+    
+
+
+}
+.button:focus,
+.button:active{
+    border: 1px solid black;
+}
+
+
+
+.search_input{
+    width: 200px;
+    padding: 8px;
+    border-color: transparent;
+    border-radius: 9px;
+    border-style: none;
+   
+    
+
+    
+    
+}
+.search_input:focus{
+    
+    outline: none;
+    
+}
+.search_input::placeholder{
+    padding: 5px;
+    margin-left: 1px;
+    margin-right: 2px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.35);
+    
+    
+}
+.search_logo{
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.right_section{
+    margin-right: 120px;
+   
+   
+    
+   
+
+}
+.user_logo{
+    width: 32px;
+    height: 32px;
+    padding-right: 24px;
+}
